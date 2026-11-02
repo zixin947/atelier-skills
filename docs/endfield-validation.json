@@ -1,0 +1,71 @@
+{
+  "created_on": "2026-11-02",
+  "skill": "endfield-ui-design",
+  "version": "1.0.0",
+  "source_files": 44,
+  "reference_documents": 21,
+  "reference_screenshots": 8,
+  "repository_entries": 21,
+  "checks": {
+    "standard_skill_validator": "passed using isolated uv PyYAML environment",
+    "portable_links_and_reference_routing": "passed",
+    "evidence_image_hashes": "passed",
+    "palette_css_consistency": "passed",
+    "contrast_pairs_passed": 56,
+    "contrast_self_test": "passed",
+    "negative_cases": [
+      "missing local link rejected",
+      "tampered reference image rejected",
+      "CSS/palette drift rejected"
+    ],
+    "archive_roundtrip": "passed",
+    "installed_copy_byte_match": "passed",
+    "prettier": "passed"
+  },
+  "browser_preview": {
+    "engine": "Ego Lite Chromium",
+    "sizes_checked": [
+      [
+        1280,
+        800
+      ],
+      [
+        1440,
+        900
+      ],
+      [
+        960,
+        700
+      ]
+    ],
+    "states_checked": [
+      "ready",
+      "0 percent",
+      "unknown",
+      "error with old snapshot",
+      "simulated loading",
+      "light and dark theme",
+      "keyboard activation",
+      "visible keyboard focus",
+      "reduced motion"
+    ],
+    "horizontal_overflow_1440_and_960": false,
+    "reduced_motion": {
+      "spinner_animation": "none",
+      "meter_transition": "0s"
+    },
+    "visual_revision": "Stopped stretching the secondary status panel to match the account card height; recaptured light/dark after transitions settled."
+  },
+  "not_verified": [
+    "automatic runtime skill selection in a fresh Codex chat",
+    "formal screen-reader or complete WCAG audit",
+    "real Codex Desktop, accounts and native client behavior",
+    "all game UI versions or official audio timelines"
+  ],
+  "archive": {
+    "file": "packages/endfield-ui-design.skill",
+    "sha256": "271af9573ac41d20e54a4890f6e0dccaa6aabf25bfeb323bc57806df9d7c3419",
+    "bytes": 7811474
+  },
+  "source": "skills/endfield-ui-design"
+}
